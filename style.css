@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(6, 155, 155, 0.775);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 63px;
+
+    background-color: rgb(30, 29, 27);
+
+    
+
+    background-color: rgb(62, 59, 59); /* Dark gray background color */
+    padding: 0 20px;    
+    .left{
+        font-size: 2rem;
+    }
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 24px;
+}
+
+nav ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgba(196, 145, 196, 0.785);
+}
+
+nav ul li a:hover{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-style: unset;
+    text-decoration-color: rgb(49, 188, 49);
+       color: rgba(203, 193, 203, 0.785);
+}
+
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+}
+
+.first_section left{
+    width: 20%;
+    background-color: red;
+}
+
+.first_section img{
+     width: 100%;
+    height: 100%; 
+}
+
+.left_section{
+    font-size: 2rem;
+    padding-top: 7rem;
+    /* margin: auto; */
+}
+
+.my_name{
+    /* display: inline; */
+    color: rgb(8, 8, 184);
+}
+
+#element{
+    color: rgb(8, 8, 184);
+}
+
+.right_part{
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+
+.right_part img{
+    width: 150%;
+    height: 100%;
+}
+
+.grey_colour{
+    color: rgb(5, 65, 21);
+    margin: auto;
+}
+.second_section{
+    /* background-color: black; */
+    
+    margin: auto;
+    max-width: 80vw;
+}
+
+
+.my_experience{
+font-family: sans-serif;
+font-weight: 90px;
+color: rgb(76, 34, 116);
+/* margin: auto; */
+}
+
+main hr{
+    padding: auto;
+}
+
+
+.footerx{
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #444;
+    padding: 35px 120px;
+}
+
+
+.footerx ul{
+    list-style: none;
+}
+
+
+.footerx > div{
+    width: 230px;
+}
+
+footer .end{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.buttons{
+    font-family: sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+   
+}
+
+.buttons .resume{
+    background-color: #be45be;
+    width: 130px;
+    height: 40px;
+    border-radius:6px;
+    background-color: #be45be;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.buttons .github{
+    width: 130px;
+    height: 40px;
+    border-radius:6px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.buttons .github :hover{
+    background-color: #be45be;
+}
+
+.my_exp{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width:200px;
+}
+
+.my_exp . div{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
